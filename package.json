@@ -1,0 +1,25 @@
+{
+  "name": "@arizonatribe/bindgenhello",
+  "version": "0.0.1",
+  "description": "A simple WebAssembly playground",
+  "main": "js/index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "keywords": [
+    "wasm",
+    "rust",
+    "webassembly"
+  ],
+  "author": "David Nunez <arizonatribe@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "text-encoding": "^0.7.0",
+    "webpack": "^5.83.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
